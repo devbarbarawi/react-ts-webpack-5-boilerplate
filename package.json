@@ -5,7 +5,8 @@
   "repository": "git@github.com:devbarbarawi/react-ts-webpack-5-boilerplate.git",
   "license": "MIT",
   "scripts": {
-    "start": "webpack serve --config webpack.dev.config.ts"
+    "start": "webpack serve --config webpack.dev.config.ts",
+    "build": "webpack serve --config webpack.prod.config.ts"
   },
   "dependencies": {
     "react": "^17.0.1",
@@ -26,6 +27,7 @@
     "@typescript-eslint/eslint-plugin": "^4.16.1",
     "@typescript-eslint/parser": "^4.16.1",
     "babel-loader": "^8.2.2",
+    "clean-webpack-plugin": "^3.0.0",
     "eslint": "^7.21.0",
     "eslint-plugin-react": "^7.22.0",
     "eslint-plugin-react-hooks": "^4.2.0",
